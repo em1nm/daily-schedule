@@ -10,6 +10,8 @@ N/A
 
 ## Usage
 
+![Screenshot 2023-05-09 at 12-31-29 Work Day Scheduler](https://github.com/em1nm/daily-schedule/assets/126382072/83529375-152b-4b83-922a-e74f48084c6c)
+
 Follow the deployment link below to input tasks throughout your day that must be completed within the given time interval. Time slots change colors in correspondence to the time. 
 
 * Grey: time has passed
@@ -28,4 +30,5 @@ N/A
 
 ## Deployment
 
+https://em1nm.github.io/daily-schedule/
 

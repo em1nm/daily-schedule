@@ -2,15 +2,14 @@ var saveButton = $(".btn");
 var row = $(".row");
 var now = dayjs();
 
-// event listener for each save button. getting the id for each parent by using $(this). getting the input value by getting the previous childs input value and then saving to local storage. the key is the id and the value is the input text.
+// event listener for each save button. getting the id for each parent by using $(this).
 saveButton.on("click", function () {
   var timeStorage = $(this).parent().attr("id");
   var input = $(this).prev().val();
   localStorage.setItem(timeStorage, input);
 });
 
-// this function loops through each row while getting the id of each row. i'm getting the current hour with day js and then compare the id to the current hour. were then setting the input's class depending the hour of the day.
-
+// this function loops through each row while getting the id of each row. 
 function getTime() {
   row.each(function () {
     var timeHour = $(this).attr("id").split("-")[1];
@@ -27,8 +26,7 @@ function getTime() {
   });
 }
 
-// this function updates the time with the set interval function. i'm updating the time by 1 second.
-
+// this function updates the time with the set interval function.
 function updateTime() {
   setInterval(function () {
     var currentDay = $("#currentDay");
@@ -38,8 +36,7 @@ function updateTime() {
   }, 1000);
 }
 
-// this function updates the inputs from local storage. were setting the index at 9 becasue the ids go from 9 to 15 (3pm).
-
+// this function updates the inputs from local storage. 
 function updatedInputs() {
   var index = 9;
 
