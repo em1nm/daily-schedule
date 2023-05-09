@@ -10,7 +10,7 @@ N/A
 
 ## Usage
 
-Input tasks throughout your day that must be completed within the given time interval. Time slots change colors in correspondence to the time. 
+Follow the deployment link below to input tasks throughout your day that must be completed within the given time interval. Time slots change colors in correspondence to the time. 
 
 * Grey: time has passed
 * Red: current time
@@ -25,4 +25,7 @@ N/A
 ## License
 
 N/A
+
+## Deployment
+
 
